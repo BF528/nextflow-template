@@ -1,5 +1,6 @@
 # Generalized Nextflow Directory Structure
 
+```
 nextflow-template/
 ├── bin
 ├── envs
@@ -10,6 +11,7 @@ nextflow-template/
 ├── refs
 ├── results
 └── samples
+```
 
 **bin/**
   - Per the nextflow documentation, "The bin directory (if it exists) is always added to the $PATH for all tasks. If the tasks are performed on a remote machine, the directory       is copied across to the new machine before the task begins."
